@@ -1,8 +1,23 @@
+@import 'fonts.css';
+
+:root {
+    --font-main: 'Montserrat';
+    --main-color-1: #00A22B;
+    --main-color-2: #227137;
+    --main-color-3: #005E19;
+    --main-color-4: #67F18B;
+    --main-color-5: #B9F1C8;
+    --logo-color: rgb(122 185 0);
+}
+
+body {
+    font-family: var(--font-main);
+}
+
 .navbar_logo {
-    width: 50px;
+    width: 80px;
     height: 50px;
     overflow: hidden;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +28,11 @@
 }
 
 .navbar_logo-name {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: limegreen;
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+    line-height: 30px;
+}
+
+.navbar_logo-letter {
+    color: rgb(122 185 0);
 }
