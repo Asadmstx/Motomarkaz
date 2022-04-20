@@ -7,3 +7,22 @@
     border-color: transparent;
     padding: 5px;
 }
+
+.custom_btn {
+    background: rgb(122 185 0);
+    color: white;
+    transition: 500ms;
+}
+
+.custom_btn:hover {
+    background: green;
+    color: white;
+}
+
+.custom_btn:last-child {
+    background: rgb(121, 121, 121);
+}
+
+.custom_btn:last-child:hover{
+    background: rgb(96, 96, 96);
+}

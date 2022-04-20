@@ -13,6 +13,9 @@
 body {
     font-family: var(--font-main);
 }
+main {
+    background: var(--main-color-5);
+}
 
 .navbar_logo {
     width: 80px;
@@ -35,4 +38,27 @@ body {
 
 .navbar_logo-letter {
     color: rgb(122 185 0);
+}
+
+.hero {
+    background-image: url(https://media.sciencephoto.com/f0/33/12/38/f0331238-800px-wm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.hero__blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+.hero__container {
+    position: relative;
+    z-index: 1;
 }
