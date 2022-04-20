@@ -13,8 +13,10 @@
 body {
     font-family: var(--font-main);
 }
+
 main {
     background: var(--main-color-5);
+    margin-top: 70px;
 }
 
 .navbar_logo {
