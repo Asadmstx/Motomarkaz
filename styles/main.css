@@ -42,6 +42,8 @@ main {
     color: rgb(122 185 0);
 }
 
+/* hero >>> */
+
 .hero {
     background-image: url(https://media.sciencephoto.com/f0/33/12/38/f0331238-800px-wm.jpg);
     background-repeat: no-repeat;
@@ -63,4 +65,75 @@ main {
 .hero__container {
     position: relative;
     z-index: 1;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
+
+/* hero <<< */
+
+/* section About >>> */
+
+.about__card {
+    background-color: var(--main-color-1);
+    color: white;
+    transition: 500ms;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.about__card:hover {
+    transform: translateY(-15px);
+}
+
+.about__card-icon {
+    position: relative;
+    font-size: 50px;
+}
+
+#cash {
+    -webkit-animation: shake 2s linear alternate infinite;
+    animation: shake 2s linear alternate infinite;
+}
+@-webkit-keyframes shake {
+    100% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+@keyframes shake {
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+#team {
+    -webkit-animation: zoom 2s linear alternate infinite;
+    animation: zoom 2s linear alternate infinite;
+}
+@-webkit-keyframes zoom {
+    100% {
+        -webkit-transform: scale(1.15);
+    }
+}
+@keyframes zoom {
+    100% {
+        -webkit-transform: scale(1.15);
+    }
+}
+
+#time {
+    -webkit-animation: rotation 4s linear forwards infinite;
+    animation: rotation 4s linear forwards infinite;
+}
+@-webkit-keyframes rotation {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes rotation {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+/* section About <<< */
