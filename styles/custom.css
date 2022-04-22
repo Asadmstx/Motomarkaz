@@ -26,3 +26,11 @@
 .custom_btn:last-child:hover{
     background: rgb(96, 96, 96);
 }
+
+.bg-success {
+    background: rgb(122 185 0) !important;
+}
+
+.text-success {
+    color: rgb(122 185 0) !important;
+}

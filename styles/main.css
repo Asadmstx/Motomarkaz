@@ -6,7 +6,7 @@
     --main-color-2: #227137;
     --main-color-3: #005E19;
     --main-color-4: #67F18B;
-    --main-color-5: #B9F1C8;
+    --main-color-5: #e1edd2;
     --logo-color: rgb(122 185 0);
 }
 
@@ -15,7 +15,6 @@ body {
 }
 
 main {
-    background: var(--main-color-5);
     margin-top: 70px;
 }
 
@@ -72,6 +71,10 @@ main {
 /* hero <<< */
 
 /* section About >>> */
+
+.about__title {
+    text-shadow: 1px 1px 3px #000;
+}
 
 .about__card {
     background-color: var(--main-color-1);
