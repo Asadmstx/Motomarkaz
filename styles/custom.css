@@ -34,3 +34,7 @@
 .text-success {
     color: rgb(122 185 0) !important;
 }
+
+.bg-light {
+    background-color: lightcyan !important;
+}

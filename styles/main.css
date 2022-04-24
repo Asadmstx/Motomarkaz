@@ -133,6 +133,29 @@ main {
     }
 }
 
-
-
 /* section About <<< */
+
+/* section Work >>> */
+
+.work__card {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transition: 500ms;
+}
+
+.work__card:hover {
+    box-shadow: none;
+}
+
+/* section Work <<< */
+
+/* footer >>> */
+
+.footer__link {
+    transition: 500ms;
+}
+
+.footer__link:hover {
+    color: rgb(122 185 0) !important;
+}
+
+/* footer <<< */
