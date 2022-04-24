@@ -72,10 +72,6 @@ main {
 
 /* section About >>> */
 
-.about__title {
-    text-shadow: 1px 1px 3px #000;
-}
-
 .about__card {
     background-color: var(--main-color-1);
     color: white;
