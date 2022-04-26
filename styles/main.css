@@ -57,8 +57,8 @@ main {
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.394);
+    backdrop-filter: blur(6px);
 }
 
 .hero__container {
@@ -145,9 +145,57 @@ main {
 
 .work__card:hover {
     box-shadow: none;
+    transform: scale(0.98);
+}
+
+.work__card-icon {
+    font-size: 45px;
 }
 
 /* section Work <<< */
+
+/* section Bounus >>> */
+
+.bonus {
+    background-image: url(https://importcars.ua/landing/new-us/imgs/9reasons/%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+.bounus__blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(109, 106, 106, 0.162);
+    backdrop-filter: blur(5px);
+}
+
+.bonus__container {
+    position: relative;
+    z-index: 2;
+}
+
+/* section Bounus <<< */
+
+/* section Results >>> */
+
+.results-circle {
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 500ms;
+}
+
+.results-circle:hover {
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+/* section Results <<< */
 
 /* footer >>> */
 
