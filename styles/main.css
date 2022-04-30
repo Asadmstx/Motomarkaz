@@ -14,8 +14,9 @@ body {
     font-family: var(--font-main);
 }
 
-main {
-    margin-top: 70px;
+.navbar {
+    background: rgba(255, 255, 255, 0.533);
+    backdrop-filter: blur(5px);
 }
 
 .navbar_logo {
@@ -41,6 +42,16 @@ main {
     color: rgb(122 185 0);
 }
 
+.header__link {
+    color: rgb(56, 56, 56) !important;
+    transition: 500ms;
+    position: relative;
+}
+
+.header__link:hover {
+    color: rgb(122 185 0) !important;
+}
+
 /* hero >>> */
 
 .hero {
@@ -64,7 +75,7 @@ main {
 .hero__container {
     position: relative;
     z-index: 1;
-    padding-top: 5rem;
+    padding-top: 9rem;
     padding-bottom: 2rem;
 }
 
