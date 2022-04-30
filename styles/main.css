@@ -44,7 +44,7 @@ main {
 /* hero >>> */
 
 .hero {
-    background-image: url(https://media.sciencephoto.com/f0/33/12/38/f0331238-800px-wm.jpg);
+    background-image: url(../img/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -157,7 +157,7 @@ main {
 /* section Bounus >>> */
 
 .bonus {
-    background-image: url(https://importcars.ua/landing/new-us/imgs/9reasons/%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82.jpg);
+    background-image: url(../img/service-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -185,8 +185,8 @@ main {
 /* section Results >>> */
 
 .results-circle {
-    border-radius: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     transition: 500ms;
 }
 
@@ -196,6 +196,28 @@ main {
 }
 
 /* section Results <<< */
+
+/* section Reviews >>> */
+
+.review__card {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.review__card-avatar {
+    -display: inline-block;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.review__card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* section Reviews <<< */
 
 /* footer >>> */
 
