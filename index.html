@@ -15,35 +15,34 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark shadow fixed-top" aria-label="Fourth navbar example">
-        <div class="container-xxl">
-          <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <div class="navbar_logo">
-              <img class="navbar_logo-img" src="img/Icons/Logo.png" alt="">
-            </div>
-            <span class="ms-2 fs-4 navbar_logo-name"> <span class="navbar_logo-letter">M</span>OTO <br> <span class="navbar_logo-letter">M</span>ARKAZ</span>
-          </a>
-          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="navbar-collapse collapse" id="navbarsExample04" style="">
-            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="header__link nav-link" aria-current="page" href="#">Главное</a>
-              </li>
-              <li class="nav-item">
-                <a class="header__link nav-link" href="#">О нас</a>
-              </li>
-              <li class="nav-item">
-                <a class="header__link nav-link" href="#">Наши услуги</a>
-              </li>
-              <li class="nav-item">
-                <a class="header__link nav-link" href="#">Контакты</a>
-              </li>
-            </ul>
+    <nav class="navbar navbar-expand-md navbar-dark shadow fixed-top">
+      <div class="container-xxl">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <div class="navbar_logo">
+            <img class="navbar_logo-img" src="img/Icons/Logo.png" alt="">
           </div>
+          <span class="ms-2 fs-4 navbar_logo-name"> <span class="navbar_logo-letter">M</span>OTO <br> <span class="navbar_logo-letter">M</span>ARKAZ</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="header__link nav-link text-success" aria-current="page" href="index.html">Главное</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__link nav-link" href="./pages/about.html">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__link nav-link" href="./pages/service.html">Наши услуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__link nav-link" href="./pages/contacts.html">Контакты</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
   </header>
 
@@ -53,11 +52,12 @@
       <div class="hero__container container-xxl px-4">
         <div class="row flex-lg-row align-items-center justify-content-center g-5 py-5">
           <div class="col-lg-6 mt-0">
-            <h1 class="fs-1 fw-bold lh-1 mb-3">ИННОВАЦИОННЫЙ ЦЕНТР</h1>
+            <h1 class="hero__title text-success text-uppercase">Moto Markaz</h1>
+            <h2 class="fs-3 fw-bold lh-1 mb-3">ИННОВАЦИОННЫЙ ЦЕНТР</h2>
             <p class="lead fs-3 mb-5" id="typeEffect"></p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="custom_btn btn btn-lg px-4 me-md-2">Наши услуги</button>
-              <button type="button" class="custom_btn btn btn-lg px-4">Подробнее</button>
+              <a href="./pages/service.html" type="button" class="custom_btn btn btn-lg px-4 me-md-2">Наши услуги</a>
+              <a href="#sectionWork" type="button" class="custom_btn btn btn-lg px-4">Подробнее</a>
             </div>
           </div>
           <div class="col-10 col-sm-8 col-lg-6 px-0 px-md-4">
@@ -139,7 +139,7 @@
       </div>
     </section>
 
-    <section class="work bg-light">
+    <section class="work bg-light" id="sectionWork">
       <div class="work__container container-xxl py-5 px-4">
         <h2 class="work__title text-center mb-5">Как Мы Работаем</h2>
         <div class="row">
@@ -292,24 +292,16 @@
             <h4 class="text-light mb-3">Быстрые Ссылки</h4>
             <ul class="list-unstyled">
               <li>
-                <i>
-                  <a href="#" class="footer__link text-light text-decoration-none fst-normal">Главное</a>
-                </i>
+                <a href="index.html" class="footer__link text-light text-decoration-none fst-normal">Главное</a>
               </li>
               <li>
-                <i>
-                  <a href="#" class="footer__link text-light text-decoration-none fst-normal">О нас</a>
-                </i>
+                <a href="./pages/about.html" class="footer__link text-light text-decoration-none fst-normal">О нас</a>
               </li>
               <li>
-                <i>
-                  <a href="#" class="footer__link text-light text-decoration-none fst-normal">Наши услуги</a>
-                </i>
+                <a href="./pages/service.html" class="footer__link text-light text-decoration-none fst-normal">Наши услуги</a>
               </li>
               <li>
-                <i>
-                  <a href="#" class="footer__link text-light text-decoration-none fst-normal">Контакты</a>
-                </i>
+                <a href="./pages/contacts.html" class="footer__link text-light text-decoration-none fst-normal">Контакты</a>
               </li>
             </ul>
           </div>
@@ -337,7 +329,7 @@
             <h4 class="text-light mb-3">Контакты</h4>
             <ul class="list-unstyled">
               <li class="mb-2">
-                <a href="#" class="footer__link text-light text-decoration-none fst-normal"><i class="fa-solid fa-phone me-2"></i>+998(99)188-12-22</a>
+                <a href="tel:+998991881222" class="footer__link text-light text-decoration-none fst-normal"><i class="fa-solid fa-phone me-2"></i>+998(99)188-12-22</a>
               </li>
               <li class="mb-2">
                 <p class="footer__link text-light text-decoration-none fst-normal"><i class="fa-solid fa-envelope me-2"></i>info@motomarkaz.uz</p>
@@ -346,13 +338,13 @@
                 <p class="footer__link text-light text-decoration-none fst-normal"><i class="fa-solid fa-house me-2"></i>Ташкент обл. Бектемир МФЙ улица Паркент тракт 1-проезд 31-дом. Ориентир: пост ГАИ Бектемир</p>
               </li>
               <li class="d-flex justify-content-start gap-2">
-                <a href="#" class="footer__link text-light">
+                <a href="https://t.me/motomarkaz" class="footer__link text-light">
                   <i class="fa-brands fa-telegram fs-2"></i>
                 </a>
-                <a href="#" class="footer__link text-light">
+                <a href="https://www.instagram.com/motomarkaz/" class="footer__link text-light">
                   <i class="fa-brands fa-instagram fs-2"></i>
                 </a>
-                <a href="#" class="footer__link text-light">
+                <a href="https://www.facebook.com/motomarkaz/" class="footer__link text-light">
                   <i class="fa-brands fa-facebook fs-2"></i>
                 </a>
               </li>
