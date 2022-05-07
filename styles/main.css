@@ -260,7 +260,7 @@ body {
 
 .staff__card {
     height: 350px;
-    background: #e1edd287;
+    background: #d5d5d587;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     transition: 500ms;
@@ -285,6 +285,48 @@ body {
 }
 
 /* section Staff <<< */
+
+/* section serve >>> */
+
+.serve__card {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transition: 500ms;
+}
+
+.serve__card:hover {
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.serve__card-icon {
+    -display: inline-block;
+    width: 50px;
+    overflow: hidden;
+}
+
+.serve__card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* section serve <<< */
+
+/* section contacts >>> */
+
+.contacts__image {
+    -display: inline-block;
+    overflow: hidden;
+}
+
+.contacts__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* section contacts <<< */
 
 /* footer >>> */
 
