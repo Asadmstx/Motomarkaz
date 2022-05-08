@@ -1,7 +1,7 @@
 // Main screen type animation >>>
 
 let i = 0;
-let txt = 'техосмотра и технического обслуживания автомобилей.';
+let txt = 'техосмотра и технического обслуживания автомобилей';
 let speed = 50;
 
 function typer() {
