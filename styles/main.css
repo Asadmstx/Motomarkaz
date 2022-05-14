@@ -29,7 +29,7 @@ body {
 }
 
 .navbar_logo {
-    width: 110px;
+    width: 100px;
     height: 50px;
     /* overflow: hidden; */
     display: -webkit-box;
@@ -394,6 +394,10 @@ body {
 
 .footer__link:hover {
     color: rgb(122 185 0) !important;
+}
+
+.footer__logo {
+    width: 90px;
 }
 
 /* footer <<< */
